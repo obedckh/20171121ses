@@ -18,36 +18,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="258.5" y="166" width="150.5" height="43"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="some notes about the project:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="c3h-cV-jeh">
+                                <rect key="frame" x="158" y="20" width="350" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
-                                <rect key="frame" x="236.5" y="217" width="194.5" height="17"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
+                                <rect key="frame" x="20" y="58" width="627" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">1. The project began as an exploration on perception of space through sound, specifically urban sounds, as a discourse in architecture.
+2. The narrative of the project is not absolutely real, nor is it fictional. It is a synthesized reality based on an extensive observation of the real and a re-imagination of what can be real.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
-                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="home" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="home" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
+            <point key="canvasLocation" x="749" y="-377"/>
         </scene>
-        <!--archive-->
+        <!--View Controller-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="ARCHIVEViewController" customModule="sound_e_scape" customModuleProvider="target" sceneMemberID="viewController">
@@ -78,43 +76,110 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="archive" image="second" id="cPa-gy-q4n"/>
+                    <navigationItem key="navigationItem" id="aWe-Rz-aRo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="360"/>
+            <point key="canvasLocation" x="1416" y="334"/>
         </scene>
-        <!--notation-->
+        <!--View Controller-->
         <scene sceneID="onO-xv-YJd">
             <objects>
                 <viewController id="Aqc-iy-MUu" customClass="NOTATIONViewController" customModule="sound_e_scape" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dPh-1x-E86">
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="some notes about the notation system:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
+                                <rect key="frame" x="168" y="47" width="336" height="24"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oe5-1j-ffz">
+                                <rect key="frame" x="23" y="79" width="627" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">1. The development of the notation system is an attempt to notate urban sounds. It is not merely a visualization of sounds but a logical system of symbols with the aim to document, to transcribe, and to compose urban sound experiences onto paper.
+2. The system does not seek for absolute precision, but rather focuses on relativity, relationships and meaning.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lME-Bb-wxT">
+                                <rect key="frame" x="297" y="286" width="73" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Continue">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Qdb-ia-bob" kind="show" id="AiQ-LL-B5V"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" constant="-2.5" id="2Zo-Hi-vQs"/>
+                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" constant="128.5" id="Gab-8B-Iee"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="qoN-ut-Rb1"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="notation" id="T40-PK-VoZ"/>
+                    <navigationItem key="navigationItem" id="eNS-J5-Dc9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="up8-Qq-pRV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="1055"/>
+            <point key="canvasLocation" x="1417" y="1052"/>
         </scene>
-        <!--score-->
+        <!--View Controller-->
+        <scene sceneID="O8R-uO-GhQ">
+            <objects>
+                <viewController id="Qdb-ia-bob" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0mc-65-bTa">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Notation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xT1-rt-5CI">
+                                <rect key="frame" x="259" y="177" width="66" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="E3o-zt-ext"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="STq-Bg-J7P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2107" y="1052"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="shc-SO-1Be">
             <objects>
                 <viewController id="K0K-wW-kc0" customClass="SCOREViewController" customModule="sound_e_scape" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jBQ-YO-DRq">
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sI6-LZ-Ewi">
+                                <rect key="frame" x="312" y="177" width="43" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="gHN-Ic-HOa"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="score" id="dFO-9G-nWK"/>
+                    <navigationItem key="navigationItem" id="rbK-5B-Kyp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uDb-yP-epI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="1748"/>
+            <point key="canvasLocation" x="1415" y="1769"/>
         </scene>
         <!--log-->
         <scene sceneID="O9y-vl-GY3">
@@ -123,6 +188,15 @@
                     <view key="view" contentMode="scaleToFill" id="4bE-Pp-kko">
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="log" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tOG-B0-VV3">
+                                <rect key="frame" x="321" y="177" width="24" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="5YW-ry-HEl"/>
                     </view>
@@ -130,7 +204,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fAw-of-smA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="2439"/>
+            <point key="canvasLocation" x="749" y="2490"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -143,9 +217,9 @@
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="Aqc-iy-MUu" kind="relationship" relationship="viewControllers" id="cds-Yl-OJL"/>
-                        <segue destination="K0K-wW-kc0" kind="relationship" relationship="viewControllers" id="a74-0H-DOF"/>
+                        <segue destination="BBi-LV-KR4" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="1Zj-wS-AQM" kind="relationship" relationship="viewControllers" id="cds-Yl-OJL"/>
+                        <segue destination="In3-nz-VBP" kind="relationship" relationship="viewControllers" id="a74-0H-DOF"/>
                         <segue destination="we8-bl-HtD" kind="relationship" relationship="viewControllers" id="LE6-Gc-I83"/>
                     </connections>
                 </tabBarController>
@@ -153,9 +227,62 @@
             </objects>
             <point key="canvasLocation" x="-382" y="1908"/>
         </scene>
+        <!--notation-->
+        <scene sceneID="gft-iX-5NM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1Zj-wS-AQM" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="notation" id="T40-PK-VoZ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yed-B6-bWg">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="32"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Aqc-iy-MUu" kind="relationship" relationship="rootViewController" id="ACM-CY-aSW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PhX-je-1AI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.32533733133437" y="1052.8"/>
+        </scene>
+        <!--archive-->
+        <scene sceneID="W2o-8B-eok">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BBi-LV-KR4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="archive" id="cPa-gy-q4n"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ccj-fQ-aRV">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="32"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="rootViewController" id="eVL-Na-EWB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HiT-Cr-ZW6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749" y="335"/>
+        </scene>
+        <!--score-->
+        <scene sceneID="r8k-OJ-wZv">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="In3-nz-VBP" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="score" id="dFO-9G-nWK"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gSQ-bY-jsE">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="32"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="K0K-wW-kc0" kind="relationship" relationship="rootViewController" id="jIu-dx-pHE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wqt-uD-H6A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="748.42578710644682" y="1769.5999999999999"/>
+        </scene>
     </scenes>
-    <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
-    </resources>
 </document>
