@@ -21,7 +21,7 @@
 		FDA035A11FC42BDA0041C93B /* LOGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA035A01FC42BDA0041C93B /* LOGViewController.swift */; };
 		FDA035A31FC42BE40041C93B /* HOMEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA035A21FC42BE40041C93B /* HOMEViewController.swift */; };
 		FDA035A51FC48F990041C93B /* GLOSSARYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA035A41FC48F990041C93B /* GLOSSARYViewController.swift */; };
-		FDA035A91FC4A4A20041C93B /* ARCHMasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA035A81FC4A4A20041C93B /* ARCHMasterTableViewController.swift */; };
+		FDDFC0CC1FC6DEFA00A5480B /* ARCHIVE2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC0CB1FC6DEFA00A5480B /* ARCHIVE2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,7 @@
 		FDA035A01FC42BDA0041C93B /* LOGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOGViewController.swift; sourceTree = "<group>"; };
 		FDA035A21FC42BE40041C93B /* HOMEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOMEViewController.swift; sourceTree = "<group>"; };
 		FDA035A41FC48F990041C93B /* GLOSSARYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLOSSARYViewController.swift; sourceTree = "<group>"; };
-		FDA035A81FC4A4A20041C93B /* ARCHMasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHMasterTableViewController.swift; sourceTree = "<group>"; };
+		FDDFC0CB1FC6DEFA00A5480B /* ARCHIVE2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHIVE2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,8 +122,8 @@
 				FDA0356C1FC42AA60041C93B /* FirstViewController.swift */,
 				FDA0356E1FC42AA60041C93B /* SecondViewController.swift */,
 				FDA035A41FC48F990041C93B /* GLOSSARYViewController.swift */,
+				FDDFC0CB1FC6DEFA00A5480B /* ARCHIVE2ViewController.swift */,
 				FDA035701FC42AA60041C93B /* Main.storyboard */,
-				FDA035A81FC4A4A20041C93B /* ARCHMasterTableViewController.swift */,
 				FDA035731FC42AA60041C93B /* Assets.xcassets */,
 				FDA035751FC42AA60041C93B /* LaunchScreen.storyboard */,
 				FDA035781FC42AA60041C93B /* Info.plist */,
@@ -285,9 +285,9 @@
 			files = (
 				FDA035A51FC48F990041C93B /* GLOSSARYViewController.swift in Sources */,
 				FDA0356F1FC42AA60041C93B /* SecondViewController.swift in Sources */,
+				FDDFC0CC1FC6DEFA00A5480B /* ARCHIVE2ViewController.swift in Sources */,
 				FDA0356B1FC42AA60041C93B /* AppDelegate.swift in Sources */,
 				FDA0356D1FC42AA60041C93B /* FirstViewController.swift in Sources */,
-				FDA035A91FC4A4A20041C93B /* ARCHMasterTableViewController.swift in Sources */,
 				FDA035A31FC42BE40041C93B /* HOMEViewController.swift in Sources */,
 				FDA035A11FC42BDA0041C93B /* LOGViewController.swift in Sources */,
 				FDA0359B1FC42BAB0041C93B /* ARCHIVEViewController.swift in Sources */,
