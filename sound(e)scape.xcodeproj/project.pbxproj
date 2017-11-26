@@ -22,6 +22,8 @@
 		FDA035A31FC42BE40041C93B /* HOMEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA035A21FC42BE40041C93B /* HOMEViewController.swift */; };
 		FDA035A51FC48F990041C93B /* GLOSSARYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA035A41FC48F990041C93B /* GLOSSARYViewController.swift */; };
 		FDDFC0CC1FC6DEFA00A5480B /* ARCHIVE2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC0CB1FC6DEFA00A5480B /* ARCHIVE2ViewController.swift */; };
+		FDDFC0CE1FC7E23E00A5480B /* CATEGORYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC0CD1FC7E23E00A5480B /* CATEGORYViewController.swift */; };
+		FDDFC0D21FC7F1D800A5480B /* Audio in Resources */ = {isa = PBXBuildFile; fileRef = FDDFC0D11FC7F1D800A5480B /* Audio */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		FDA035A21FC42BE40041C93B /* HOMEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOMEViewController.swift; sourceTree = "<group>"; };
 		FDA035A41FC48F990041C93B /* GLOSSARYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLOSSARYViewController.swift; sourceTree = "<group>"; };
 		FDDFC0CB1FC6DEFA00A5480B /* ARCHIVE2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHIVE2ViewController.swift; sourceTree = "<group>"; };
+		FDDFC0CD1FC7E23E00A5480B /* CATEGORYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATEGORYViewController.swift; sourceTree = "<group>"; };
+		FDDFC0D11FC7F1D800A5480B /* Audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Audio; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,19 +118,21 @@
 			isa = PBXGroup;
 			children = (
 				FDA0356A1FC42AA60041C93B /* AppDelegate.swift */,
-				FDA0359A1FC42BAB0041C93B /* ARCHIVEViewController.swift */,
+				FDA0356C1FC42AA60041C93B /* FirstViewController.swift */,
+				FDA0356E1FC42AA60041C93B /* SecondViewController.swift */,
 				FDA0359C1FC42BC10041C93B /* NOTATIONViewController.swift */,
+				FDA0359A1FC42BAB0041C93B /* ARCHIVEViewController.swift */,
 				FDA0359E1FC42BCE0041C93B /* SCOREViewController.swift */,
 				FDA035A01FC42BDA0041C93B /* LOGViewController.swift */,
 				FDA035A21FC42BE40041C93B /* HOMEViewController.swift */,
-				FDA0356C1FC42AA60041C93B /* FirstViewController.swift */,
-				FDA0356E1FC42AA60041C93B /* SecondViewController.swift */,
 				FDA035A41FC48F990041C93B /* GLOSSARYViewController.swift */,
 				FDDFC0CB1FC6DEFA00A5480B /* ARCHIVE2ViewController.swift */,
+				FDDFC0CD1FC7E23E00A5480B /* CATEGORYViewController.swift */,
 				FDA035701FC42AA60041C93B /* Main.storyboard */,
 				FDA035731FC42AA60041C93B /* Assets.xcassets */,
 				FDA035751FC42AA60041C93B /* LaunchScreen.storyboard */,
 				FDA035781FC42AA60041C93B /* Info.plist */,
+				FDDFC0D11FC7F1D800A5480B /* Audio */,
 			);
 			path = "sound(e)scape";
 			sourceTree = "<group>";
@@ -259,6 +265,7 @@
 				FDA035771FC42AA60041C93B /* LaunchScreen.storyboard in Resources */,
 				FDA035741FC42AA60041C93B /* Assets.xcassets in Resources */,
 				FDA035721FC42AA60041C93B /* Main.storyboard in Resources */,
+				FDDFC0D21FC7F1D800A5480B /* Audio in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDA035A51FC48F990041C93B /* GLOSSARYViewController.swift in Sources */,
+				FDDFC0CE1FC7E23E00A5480B /* CATEGORYViewController.swift in Sources */,
 				FDA0356F1FC42AA60041C93B /* SecondViewController.swift in Sources */,
 				FDDFC0CC1FC6DEFA00A5480B /* ARCHIVE2ViewController.swift in Sources */,
 				FDA0356B1FC42AA60041C93B /* AppDelegate.swift in Sources */,
@@ -459,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38BRJ5C32K;
 				INFOPLIST_FILE = "sound(e)scape/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "obed.sound-e-scape";
@@ -473,6 +482,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38BRJ5C32K;
 				INFOPLIST_FILE = "sound(e)scape/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "obed.sound-e-scape";
